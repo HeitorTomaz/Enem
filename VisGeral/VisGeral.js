@@ -51,7 +51,8 @@ function VisGeral(){
 	};
 */
 	var gradeScale = d3.scale.linear()
-	    .domain([minVal*0.95, maxVal*1.05])
+	    //.domain([minVal*0.95, maxVal*1.05])
+	    .domain([300, 600])
 	    .range([tamanhoy, 0]);
 
 	var stateScale = d3.scale.linear()
